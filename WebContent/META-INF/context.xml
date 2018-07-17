@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Context configuration file for my web application -->
+<Context>
+<Resource name="jdbc/project" auth="Container" type="javax.sql.DataSource"
+               maxActive="2" maxIdle="30" maxWait="10000"
+               username="root" password="root" driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/project1?useSSL=false"/>
+            
+     
+</Context>
+
+
